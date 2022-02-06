@@ -17,13 +17,15 @@
                 <h5>Search your word find that's meaning</h5>
             </div>
             <div class="card-body">
-                <div class="mb-3">
-                    <input type="search" id="inputWord" class="form-control" placeholder="Search a Word...">
-                    <div id="validationServer03Feedback" class="invalid-feedback">
-                        Please provide a valid input.
+                <form id="formWord">
+                    <div class="mb-3">
+                        <input type="search" id="inputWord" class="form-control" placeholder="Search a Word...">
+                        <div id="validationServer03Feedback" class="invalid-feedback">
+                            Please provide a valid input.
+                        </div>
                     </div>
-                </div>
-                <a href="#" id="searchBtn" class="btn btn-primary">Search</a>
+                    <button type="submit" id="searchBtn" class="btn btn-primary">Search</button>
+                </form>
             </div>
         </div>
         <div class="resultBox my-5"></div>
